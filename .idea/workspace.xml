@@ -4,20 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="350be08c-9ef5-4fdc-ad26-a0d11996c172" name="Changes" comment="" />
+    <list default="true" id="350be08c-9ef5-4fdc-ad26-a0d11996c172" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeception.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeception.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tp1/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Tp1/docker-compose.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
-    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <pharConfigPath>$PROJECT_DIR$/Tp1/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp\php\php.exe" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp\php\php.exe">
+    <include_path>
+      <path value="$PROJECT_DIR$/Tp1/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/Tp1/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/Tp1/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/Tp1/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/Tp1/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/Tp1/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/Tp1/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/Tp1/vendor/symfony/polyfill-php84" />
+      <path value="$PROJECT_DIR$/Tp1/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/Tp1/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/Tp1/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/Tp1/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/Tp1/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/Tp1/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/Tp1/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/Tp1/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/Tp1/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/Tp1/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/Tp1/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/Tp1/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/Tp1/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/Tp1/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/Tp1/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/Tp1/vendor/composer" />
+      <path value="$PROJECT_DIR$/Tp1/vendor/doctrine/deprecations" />
+    </include_path>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -26,27 +62,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Craft/OneDrive/Documents/Cour/S5/Paradigme&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Craft/OneDrive/Documents/Cour/S5/Paradigme",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
-    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
-      <option name="pathToComposerJson" value="$PROJECT_DIR$/composer.json" />
-      <method v="2" />
-    </configuration>
-  </component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,6 +90,7 @@
       <workItem from="1763476472555" duration="10000" />
       <workItem from="1763476499195" duration="99000" />
       <workItem from="1763476607874" duration="52000" />
+      <workItem from="1763477120403" duration="218000" />
     </task>
     <servers />
   </component>

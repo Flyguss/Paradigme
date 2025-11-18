@@ -8,8 +8,7 @@ services:
     ports:
       - "11000:80"
     volumes:
-      - ./app/:/var/www/
-      - ./apache.conf:/etc/apache2/sites-enabled/000-default.conf
+      - ./Tp1/app/:/var/www/
     networks:
       - verger.net
     depends_on:
@@ -19,12 +18,12 @@ services:
   sql:
     image: 'postgres:latest'
     restart: always
-    env_file: ./abridepoauth.env
+    env_file: ./base.env
     ports:
       - "11003:5432"
     networks:
       - verger.net
-    container_name: db_abridepoauth
+    container_name: bdd
     volumes:
       - ./sql:/var/sql
 
