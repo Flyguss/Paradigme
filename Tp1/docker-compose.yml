@@ -1,0 +1,39 @@
+networks:
+  verger.net:
+    driver: bridge
+services:
+  web:
+    image: canals/php:latest
+    restart: always
+    ports:
+      - "11000:80"
+    volumes:
+      - ./app/:/var/www/
+      - ./apache.conf:/etc/apache2/sites-enabled/000-default.conf
+    networks:
+      - verger.net
+    depends_on:
+      - sql
+
+
+  sql:
+    image: 'postgres:latest'
+    restart: always
+    env_file: ./abridepoauth.env
+    ports:
+      - "11003:5432"
+    networks:
+      - verger.net
+    container_name: db_abridepoauth
+    volumes:
+      - ./sql:/var/sql
+
+
+  adminer:
+    image: adminer:latest
+    restart: always
+    command: php -S 0.0.0.0:8080 -t /var/www/html
+    ports:
+      - '11008:8080'
+    networks:
+      - verger.net
