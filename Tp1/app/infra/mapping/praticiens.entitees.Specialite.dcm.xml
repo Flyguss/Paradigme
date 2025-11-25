@@ -22,7 +22,7 @@
                      mapped-by="praticien">
         </one-to-many>
         <one-to-many field="motifsVisite"
-            target-entity="ticketnet\core\domain\MotifVisite"
+            target-entity="praticiens\entitees\MotifVisite"
             mapped-by="specialite">
         </one-to-many>
     </entity>
