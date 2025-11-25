@@ -49,3 +49,12 @@ foreach ($st->getPraticiens() as $p) {
     echo  $p->getNom() . " / " . $p->getPrenom() . " / " . $p->getVille() . " / " . $p->getEmail() . " / " . $p->getTelephone() ."<br>";
 }
 
+$spmv = $specialityRepository->find(1);
+
+echo "<h2>Question 5 ./ </h2>" ;
+
+echo "Motifs de visite pour la spécialité " . $spmv->getLibelle() . " : <br><br>" ;
+
+foreach ($spmv->getMotifsVisite() as $mv) {
+    echo  $mv->getLibelle() . "<br>";
+}

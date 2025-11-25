@@ -59,6 +59,17 @@ class Specialite {
         $this->description = $description;
     }
 
+    /**
+     * @return Collection
+     */
+    public function getPraticiens(): Collection {
+        return $this->praticiens;
+    }
 
-
+    /**
+     * @return Collection
+     */
+    public function getMotifsVisite(): Collection {
+        return $this->motifsVisite;
+    }
 }

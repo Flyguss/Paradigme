@@ -23,6 +23,20 @@ class MotifVisite {
     }
 
     /**
+     * @return Specialite
+     */
+    public function getSpecialite(): Specialite {
+        return $this->specialite ;
+    }
+
+    /**
+     * @param Specialite $specialite
+     */
+    public function setSpecialite(Specialite $specialite): void {
+        $this->specialite = $specialite ;
+    }
+
+    /**
      * @return string
      */
     public function getLibelle(): string {
