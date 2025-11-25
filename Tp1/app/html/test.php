@@ -5,6 +5,7 @@ use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\ORMSetup;
 use praticiens\entitees\Praticien;
 use praticiens\entitees\Specialite;
+use praticiens\entitees\Structure;
 
 
 $mapping_path = __DIR__ . '/../infra/mapping/';
@@ -34,4 +35,17 @@ echo $p->getId() . " / " . $p->getNom() . " / " . $p->getPrenom() . " / " . $p->
 
 echo "<h2>Question 3 ./ </h2>" ;
 
-echo $p->getSpecialite()->getLibelle() ;
+echo  "Specialité : " . $p->getSpecialite()->getLibelle() . " et structure : " . $p->getStructure()->getNom() ;
+
+echo "<h2>Question 4 ./ </h2>" ;
+
+$structureRepository = $entityManager->getRepository(Structure::class);
+
+$st = $structureRepository->find("3444bdd2-8783-3aed-9a5e-4d298d2a2d7c") ;
+
+echo $st->getId() . " / " . $st->getNom() . " / " . $st->getAdresse() . " / " . $st->getVille() . " / " . $st->getCodePostal() . " / " . $st->getTelephone() ."<br> Praticiens affiliés a cette structure : <br><br>" ;
+
+foreach ($st->getPraticiens() as $p) {
+    echo  $p->getNom() . " / " . $p->getPrenom() . " / " . $p->getVille() . " / " . $p->getEmail() . " / " . $p->getTelephone() ."<br>";
+}
+

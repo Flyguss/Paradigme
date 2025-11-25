@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping
+ https://www.doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+
+
+    <entity name="praticiens\entitees\Structure"
+            table="structure">
+        <id name="id" type="string" length="128" column="id">
+            <generator strategy="AUTO"/>
+        </id>
+        <field name="nom"
+               column="nom"
+               length="48"
+               type="string"/>
+        <field name="adresse"
+               column="adresse"
+               type="text"/>
+        <field name="ville"
+               column="ville"
+               length="128"
+               type="string"/>
+        <field name="codePostal"
+               column="code_Postal"
+               length="12"
+               type="string"/>
+        <field name="telephone"
+               column="telephone"
+               length="24"
+               type="string"/>
+        <one-to-many field="praticiens"
+                     target-entity="praticiens\entitees\Praticien"
+                     mapped-by="structure">
+        </one-to-many>
+    </entity>
+
+
+</doctrine-mapping>

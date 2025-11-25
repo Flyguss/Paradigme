@@ -5,9 +5,11 @@ namespace praticiens\entitees;
 class Praticien {
 
 
+
     private string $id , $nom , $prenom , $rpps_id , $titre , $ville , $email , $telephone ;
     private bool $organisation , $nouveauPatient ;
     private Specialite $specialite ;
+    private Structure $structure ;
 
 
     public function getId()
@@ -174,6 +176,22 @@ class Praticien {
     public function setNouveauPatient(bool $nouveauPatient): void
     {
         $this->nouveauPatient = $nouveauPatient;
+    }
+
+    /**
+     * @return Structure
+     */
+    public function getStructure(): Structure
+    {
+        return $this->structure;
+    }
+
+    /**
+     * @param Structure $structure
+     */
+    public function setStructure(Structure $structure): void
+    {
+        $this->structure = $structure;
     }
 
 }

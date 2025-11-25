@@ -48,6 +48,12 @@
                      inversed-by="specialites">
             <join-column name="specialite_id" referenced-column-name="id"/>
         </many-to-one>
+        <many-to-one field="structure"
+                     target-entity="praticiens\entitees\Structure"
+                     inversed-by="praticiens">
+            <join-column name="structure_id" referenced-column-name="id"/>
+        </many-to-one>
+
     </entity>
 
 
