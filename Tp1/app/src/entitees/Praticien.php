@@ -2,7 +2,10 @@
 
 namespace praticiens\entitees;
 
+use Doctrine\Common\Collections\Collection;
+
 class Praticien {
+
 
 
 
@@ -10,6 +13,7 @@ class Praticien {
     private bool $organisation , $nouveauPatient ;
     private Specialite $specialite ;
     private Structure $structure ;
+    private Collection $motifVisites ;
 
 
     public function getId()
@@ -192,6 +196,22 @@ class Praticien {
     public function setStructure(Structure $structure): void
     {
         $this->structure = $structure;
+    }
+
+    /**
+     * @return Collection
+     */
+    public function getMotifVisites(): Collection
+    {
+        return $this->motifVisites;
+    }
+
+    /**
+     * @param Collection $motifVisites
+     */
+    public function setMotifVisites(Collection $motifVisites): void
+    {
+        $this->motifVisites = $motifVisites;
     }
 
 }

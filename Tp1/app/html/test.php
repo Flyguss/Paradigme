@@ -49,3 +49,15 @@ foreach ($st->getPraticiens() as $p) {
     echo  $p->getNom() . " / " . $p->getPrenom() . " / " . $p->getVille() . " / " . $p->getEmail() . " / " . $p->getTelephone() ."<br>";
 }
 
+echo "<h2>Question 6./ </h2>" ;
+
+echo "Voici la liste des motid de visite du praticien  8ae1400f-d46d-3b50-b356-269f776be532 <br>" ;
+
+$p = $praticiensRepository->find("8ae1400f-d46d-3b50-b356-269f776be532") ;
+
+$mvs = $p->getMotifVisites() ;
+
+foreach ($mvs as $mv) {
+    echo $mv->getLibelle() . " / " ;
+}
+
