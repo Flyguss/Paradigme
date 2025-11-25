@@ -2,7 +2,6 @@ composer.phar
 Tp1/app/vendor/
 /vendor/
 .env
-*.xml
 /.idea
 .idea/workspace.xml
 
