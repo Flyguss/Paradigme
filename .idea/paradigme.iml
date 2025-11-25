@@ -31,8 +31,10 @@
       <excludeFolder url="file://$MODULE_DIR$/Tp1/app/vendor/symfony/polyfill-intl-normalizer" />
       <excludeFolder url="file://$MODULE_DIR$/Tp1/app/vendor/symfony/polyfill-mbstring" />
       <excludeFolder url="file://$MODULE_DIR$/Tp1/app/vendor/symfony/polyfill-php84" />
+      <excludeFolder url="file://$MODULE_DIR$/Tp1/app/vendor/symfony/polyfill-uuid" />
       <excludeFolder url="file://$MODULE_DIR$/Tp1/app/vendor/symfony/service-contracts" />
       <excludeFolder url="file://$MODULE_DIR$/Tp1/app/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/Tp1/app/vendor/symfony/uid" />
       <excludeFolder url="file://$MODULE_DIR$/Tp1/app/vendor/symfony/var-exporter" />
     </content>
     <orderEntry type="inheritedJdk" />

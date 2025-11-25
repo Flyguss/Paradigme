@@ -62,6 +62,8 @@
       <path value="$PROJECT_DIR$/Tp1/app/vendor/symfony/var-exporter" />
       <path value="$PROJECT_DIR$/Tp1/app/vendor/symfony/polyfill-intl-normalizer" />
       <path value="$PROJECT_DIR$/Tp1/app/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/symfony/uid" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/symfony/polyfill-uuid" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />

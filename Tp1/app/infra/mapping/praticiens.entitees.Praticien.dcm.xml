@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping
+ https://www.doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+
+
+    <entity name="praticiens\entitees\Praticien"
+            table="praticien">
+        <id name="id" type="string" length="128" column="id">
+        </id>
+        <field name="nom"
+               column="nom"
+               length="48"
+               type="string"/>
+        <field name="prenom"
+               column="prenom"
+               length="48"
+               type="string"/>
+        <field name="ville"
+               column="ville"
+               length="48"
+               type="string"/>
+        <field name="email"
+               column="email"
+               length="48"
+               type="string"/>
+        <field name="telephone"
+               column="telephone"
+               length="48"
+               type="string"/>
+        <field name="rpps_id"
+               column="rpps_id"
+               length="48"
+               type="string"/>
+        <field name="titre"
+               column="titre"
+               length="48"
+               type="string"/>
+        <field name="nouveauPatient"
+               column="nouveau_patient"
+               type="boolean"/>
+        <field name="organisation"
+               column="organisation"
+               type="boolean"/>
+        <many-to-one field="specialite"
+                     target-entity="praticiens\entitees\Specialite"
+                     inversed-by="specialites">
+            <join-column name="specialite_id" referenced-column-name="id"/>
+        </many-to-one>
+    </entity>
+
+
+</doctrine-mapping>

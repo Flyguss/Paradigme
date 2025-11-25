@@ -2,7 +2,15 @@
 
     namespace praticiens\entitees;
 
+use Doctrine\Common\Collections\Collection;
+
 class Specialite {
+
+    private int $id ;
+    private string $libelle , $description ;
+    private Collection $praticiens ;
+
+
     /**
      * @return int
      */
@@ -50,7 +58,6 @@ class Specialite {
         $this->description = $description;
     }
 
-    private int $id ;
-    private string $libelle , $description ;
+
 
 }

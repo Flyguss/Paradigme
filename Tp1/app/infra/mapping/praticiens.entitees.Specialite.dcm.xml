@@ -17,6 +17,11 @@
         <field name="description"
                column="description"
                type="text"/>
+        <one-to-many field="praticiens"
+                     target-entity="praticiens\entitees\Praticien"
+                     mapped-by="praticien">
+        </one-to-many>
+
     </entity>
 
 

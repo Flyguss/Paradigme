@@ -5,20 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="350be08c-9ef5-4fdc-ad26-a0d11996c172" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Tp1/app/config/ticket.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp1/app/infra/mapping/praticiens.entitees.Praticiens.dcm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp1/app/infra/mapping/praticiens.entitees.Specialite.dcm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp1/app/src/entitees/Specialite.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeception.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeception.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/paradigme.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/paradigme.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tp1/app/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tp1/app/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tp1/app/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Tp1/app/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tp1/app/html/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tp1/app/html/test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tp1/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tp1/app/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tp1/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Tp1/app/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tp1/app/infra/mapping/praticiens.entitees.Praticiens.dcm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tp1/app/infra/mapping/praticiens.entitees.Praticien.dcm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tp1/app/infra/mapping/praticiens.entitees.Specialite.dcm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tp1/app/infra/mapping/praticiens.entitees.Specialite.dcm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tp1/app/src/entitees/Specialite.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tp1/app/src/entitees/Specialite.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +84,8 @@
       <path value="$PROJECT_DIR$/Tp1/app/vendor/symfony/var-exporter" />
       <path value="$PROJECT_DIR$/Tp1/app/vendor/symfony/polyfill-intl-normalizer" />
       <path value="$PROJECT_DIR$/Tp1/app/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/symfony/uid" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/symfony/polyfill-uuid" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -143,7 +140,7 @@
       <workItem from="1764076026453" duration="487000" />
       <workItem from="1764076550431" duration="115000" />
       <workItem from="1764076672982" duration="1655000" />
-      <workItem from="1764078374379" duration="545000" />
+      <workItem from="1764078374379" duration="5162000" />
     </task>
     <servers />
   </component>
