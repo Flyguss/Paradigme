@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="350be08c-9ef5-4fdc-ad26-a0d11996c172" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Tp1/app/config/ticket.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp1/app/infra/mapping/praticiens.entitees.Praticiens.dcm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp1/app/infra/mapping/praticiens.entitees.Specialite.dcm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp1/app/src/entitees/Specialite.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeception.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeception.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/paradigme.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/paradigme.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tp1/app/html/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tp1/app/html/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tp1/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tp1/app/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tp1/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Tp1/app/composer.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +33,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp\php\php.exe">
     <include_path>
@@ -48,6 +64,31 @@
       <path value="$PROJECT_DIR$/Tp1/vendor/doctrine/event-manager" />
       <path value="$PROJECT_DIR$/Tp1/vendor/composer" />
       <path value="$PROJECT_DIR$/Tp1/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/symfony/polyfill-php84" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/composer" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/symfony/polyfill-mbstring" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -65,17 +106,23 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Craft/OneDrive/Documents/Cour/S5/Paradigme&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Craft/OneDrive/Documents/Cour/S5/Paradigme/Tp1/infra/mapping&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;php.add.doc.comment.for.fields.panel.add.php.doc.for.all.properties&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Craft\OneDrive\Documents\Cour\S5\Paradigme\Tp1\infra\mapping" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Craft\OneDrive\Documents\Cour\S5\Paradigme\Tp1\app" />
+      <recent name="C:\Users\Craft\OneDrive\Documents\Cour\S5\Paradigme\Tp1" />
       <recent name="C:\Users\Craft\OneDrive\Documents\Cour\S5\Paradigme\Tp1\app\html" />
     </key>
   </component>
@@ -94,6 +141,9 @@
       <workItem from="1763477120403" duration="218000" />
       <workItem from="1763477354527" duration="259000" />
       <workItem from="1764076026453" duration="487000" />
+      <workItem from="1764076550431" duration="115000" />
+      <workItem from="1764076672982" duration="1655000" />
+      <workItem from="1764078374379" duration="545000" />
     </task>
     <servers />
   </component>

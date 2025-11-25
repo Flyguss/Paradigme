@@ -11,6 +11,9 @@
       <PhpSpecSuiteConfiguration>
         <option name="myPath" value="$PROJECT_DIR$/Tp1" />
       </PhpSpecSuiteConfiguration>
+      <PhpSpecSuiteConfiguration>
+        <option name="myPath" value="$PROJECT_DIR$/Tp1/app" />
+      </PhpSpecSuiteConfiguration>
     </suites>
   </component>
 </project>

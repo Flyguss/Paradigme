@@ -37,6 +37,31 @@
       <path value="$PROJECT_DIR$/Tp1/vendor/doctrine/event-manager" />
       <path value="$PROJECT_DIR$/Tp1/vendor/composer" />
       <path value="$PROJECT_DIR$/Tp1/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/symfony/polyfill-php84" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/composer" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/Tp1/app/vendor/symfony/polyfill-mbstring" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />
