@@ -9,6 +9,7 @@ class Specialite {
     private int $id ;
     private string $libelle , $description ;
     private Collection $praticiens ;
+    private Collection $motifsVisite ;
 
 
     /**
