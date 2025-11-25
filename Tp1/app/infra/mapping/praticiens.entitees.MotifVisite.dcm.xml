@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping
+ https://www.doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+
+
+    <entity name="praticiens\entitees\MotifVisite"
+            table="motif_visite">
+        <id name="id" type="integer" column="id">
+            <generator strategy="AUTO"/>
+        </id>
+        <many-to-one field="specialite" target-entity="praticiens\entitees\Specialite"
+            inversed-by="motifsVisite">
+            <join-column name="specialite_id" referenced-column-name="id"/>
+        </many-to-one>
+        <field name="libelle"
+            column="libelle"
+            length="48"
+            type="string"/>
+    </entity>
+
+
+</doctrine-mapping>
