@@ -4,8 +4,8 @@ namespace praticiens\entitees;
 class MotifVisite {
 
     private int $id ;
+    private Specialite $specialite ;
     private string $libelle ;
-    private string $description ;
 
 
     /**
