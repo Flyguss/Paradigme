@@ -54,6 +54,21 @@
             <join-column name="structure_id" referenced-column-name="id"/>
         </many-to-one>
 
+
+
+        <many-to-many field="motifVisites"
+        target-entity="praticiens\entitees\MotifVisite"
+        inversed-by="praticiens">
+            <join-table name="praticien2motif">
+                <join-columns>
+                    <join-column name="praticien_id" referenced-column-name="id"/>
+                </join-columns>
+                <inverse-join-columns>
+                    <join-column name="motif_id" referenced-column-name="id"/>
+                </inverse-join-columns>
+            </join-table>
+        </many-to-many>
+
     </entity>
 
 

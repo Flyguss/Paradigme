@@ -1,11 +1,14 @@
 <?php
 namespace praticiens\entitees;
 
+use Doctrine\Common\Collections\Collection;
+
 class MotifVisite {
 
     private int $id ;
     private Specialite $specialite ;
     private string $libelle ;
+    private Collection $praticiens ;
 
 
     /**
