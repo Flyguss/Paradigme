@@ -49,6 +49,7 @@ foreach ($st->getPraticiens() as $p) {
     echo  $p->getNom() . " / " . $p->getPrenom() . " / " . $p->getVille() . " / " . $p->getEmail() . " / " . $p->getTelephone() ."<br>";
 }
 
+<<<<<<< HEAD
 echo "<h2>Question 6./ </h2>" ;
 
 echo "Voici la liste des motid de visite du praticien  8ae1400f-d46d-3b50-b356-269f776be532 <br>" ;
@@ -61,3 +62,14 @@ foreach ($mvs as $mv) {
     echo $mv->getLibelle() . " / " ;
 }
 
+=======
+$spmv = $specialityRepository->find(1);
+
+echo "<h2>Question 5 ./ </h2>" ;
+
+echo "Motifs de visite pour la spécialité " . $spmv->getLibelle() . " : <br><br>" ;
+
+foreach ($spmv->getMotifsVisite() as $mv) {
+    echo  $mv->getLibelle() . "<br>";
+}
+>>>>>>> df9d3ed2eb3e24a21330555689af98c14c6d9455
