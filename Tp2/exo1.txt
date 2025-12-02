@@ -75,3 +75,6 @@ db.produits.insertOne({
 }
 )
 
+11. les recettes associées au produit 1 :
+let n = db.produits.find({numero: 1}, {_id: 0, recettes: 1})
+db.recettes.find({_id: { $in: n}})
