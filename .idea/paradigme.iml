@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Tp1/app/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/Tp1/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/Tp1/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Tp1/app/src" isTestSource="false" packagePrefix="praticiens" />
       <excludeFolder url="file://$MODULE_DIR$/Tp1/app/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/Tp1/app/vendor/doctrine/collections" />
       <excludeFolder url="file://$MODULE_DIR$/Tp1/app/vendor/doctrine/dbal" />

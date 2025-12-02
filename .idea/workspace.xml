@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="350be08c-9ef5-4fdc-ad26-a0d11996c172" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/paradigme.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/paradigme.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tp1/app/html/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tp1/app/html/test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tp1/app/src/entitees/Praticien.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tp1/app/src/entitees/Praticien.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tp2/app/src/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tp2/app/src/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,23 +90,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Craft/OneDrive/Documents/Cour/S5/Paradigme/Tp1/app/infra/mapping",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "php.add.doc.comment.for.fields.panel.add.php.doc.for.all.properties": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Craft/OneDrive/Documents/Cour/S5/Paradigme/Tp1/app/infra/mapping&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;php.add.doc.comment.for.fields.panel.add.php.doc.for.all.properties&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Craft\OneDrive\Documents\Cour\S5\Paradigme\Tp1\app\infra\mapping" />
@@ -136,6 +136,7 @@
       <workItem from="1764076550431" duration="115000" />
       <workItem from="1764076672982" duration="1655000" />
       <workItem from="1764078374379" duration="11437000" />
+      <workItem from="1764684788893" duration="3094000" />
     </task>
     <servers />
   </component>

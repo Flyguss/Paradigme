@@ -1,0 +1,77 @@
+ 1. Liste des produits
+db.produits.find()
+
+ 2. Compter les produits
+db.produits.countDocuments()
+
+ 3. Lister les produits triés par numéro décroissant
+db.produits.find().sort({ numero: -1 })
+
+ 4. Le produit dont le libellé est "Margherita"
+db.produits.findOne({ libelle: "Margherita" })
+
+
+ou pour afficher tous si doublons :
+
+db.produits.find({ libelle: "Margherita" })
+
+ 5. Les produits de la catégorie "Boissons"
+db.produits.find({ categorie: "Boissons" })
+
+ 6. Liste des produits (afficher categorie, numero, libelle)
+db.produits.find(
+    {},
+    { _id: 0, categorie: 1, numero: 1, libelle: 1 }
+)
+
+7. Idem + taille + tarif
+db.produits.find(
+    {},
+    { _id: 0, categorie: 1, numero: 1, libelle: 1, tarifs: 1 }
+)
+
+8. produits avec un tarif < 8.0
+db.produits.find({ "tarifs.tarif": { $lt: 8.0 } })
+
+
+9. produits avec un tarif grande taille < 8.0
+db.produits.find({ "tarifs.tarif": { $lt: 8.0 } , "tarifs.taille" : "grande" })
+
+
+10.insérer un nouveau produit
+db.produits.insertOne({
+  "_id": {
+    "$oid": "6543ac35a08f42f1cc02e815"
+  },
+  "numero": 9,
+  "libelle": "tiramisu",
+  "description": "tiramisu, au café, bien sûr",
+  "image": "https://www.dominos.fr/ManagedAssets/FR/product/DETI.png",
+  "categorie": "Desserts",
+  "tarifs": [
+    {
+      "taille": "normale",
+      "tarif": 3.99
+    },
+    {
+      "taille": "grande",
+      "tarif": 4.99
+    }
+  ],
+  "recettes": [
+    {
+      "$oid": "6543b503f0e418df120c79be"
+    },
+    {
+      "$oid": "6543b503f0e418df120c79bb"
+    },
+    {
+      "$oid": "6543b503f0e418df120c79b7"
+    },
+    {
+      "$oid": "6543b503f0e418df120c79c6"
+    }
+  ]
+}
+)
+
