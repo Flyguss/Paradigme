@@ -1,5 +1,6 @@
 <?php
 require __DIR__ . '/../vendor/autoload.php';
+
 use Doctrine\DBAL\DriverManager;
 use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\ORMSetup;
@@ -71,3 +72,32 @@ $mvs = $p->getMotifVisites() ;
 foreach ($mvs as $mv) {
     echo $mv->getLibelle() . " / " ;
 }
+
+echo "<h2>Question 7./ </h2>" ;
+
+$newP = new Praticien() ;
+$newP->setNom("Tabouret");
+$newP->setPrenom("Olivier");
+$newP->setTitre("Dr.");
+$newP->setVille("Verdun");
+$newP->setEmail("Tabouret@LeRoiMerlin.fr");
+$newP->setTelephone("07 19 64 78 25");
+$newP->setOrganisation(0);
+$newP->setNouveauPatient(1);
+
+$newP->setSpecialite($specialityRepository->find(3));
+
+$entityManager->persist($newP);
+$entityManager->flush();
+
+echo "<h2>Question 8./ </h2>" ;
+
+$newP->setVille("Paris");
+$newP->setStructure($structureRepository->find("3444bdd2-8783-3aed-9a5e-4d298d2a2d7c"));
+
+$newP->setMotifVisites(new Doctrine\Common\Collections\ArrayCollection([1 , 10 , 14 , 24]));
+$entityManager->flush();
+
+echo "<h2>Question 9./ </h2>" ;
+
+$entityManager->remove($newP);

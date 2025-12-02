@@ -39,10 +39,10 @@
                type="string"/>
         <field name="nouveauPatient"
                column="nouveau_patient"
-               type="boolean"/>
+               type="integer"/>
         <field name="organisation"
                column="organisation"
-               type="boolean"/>
+               type="integer"/>
         <many-to-one field="specialite"
                      target-entity="praticiens\entitees\Specialite"
                      inversed-by="specialites">

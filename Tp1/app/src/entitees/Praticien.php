@@ -3,6 +3,7 @@
 namespace praticiens\entitees;
 
 use Doctrine\Common\Collections\Collection;
+use Symfony\Component\Uid\Uuid;
 
 class Praticien {
 
@@ -10,10 +11,14 @@ class Praticien {
 
 
     private string $id , $nom , $prenom , $rpps_id , $titre , $ville , $email , $telephone ;
-    private bool $organisation , $nouveauPatient ;
+    private int $organisation , $nouveauPatient ;
     private Specialite $specialite ;
     private Structure $structure ;
     private Collection $motifVisites ;
+
+    public function __construct() {
+        $this->id = Uuid::v4() ;
+    }
 
 
     public function getId()
@@ -22,9 +27,9 @@ class Praticien {
     }
 
 
-    public function setSpecialite($id)
+    public function setSpecialite(Specialite $spe)
     {
-        $this->specialite = $id;
+        $this->specialite = $spe;
     }
 
     public function getSpecialite()
