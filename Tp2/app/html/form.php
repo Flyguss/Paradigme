@@ -6,7 +6,7 @@ require_once __DIR__ . "/../src/vendor/autoload.php";
 // Connexion à MongoDB
 $c = new Client("mongodb://mongo:27017");
 $db = $c->local;
-$collection = $db->produits;
+
 
 // Si le formulaire est soumis
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -17,12 +17,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Validation simple
     if ($numero && $categorie && $libelle) {
-        $collection->insertOne([
+        $produit = $db->produits->insertOne([
             'numero' => $numero,
             'categorie' => $categorie,
             'libelle' => $libelle
         ]);
-        $message = "Produit ajouté avec succès !";
+
+       $ird = $produit->getInsertedId() ;
+
+        $message = "Le Produit  $ird ajouté avec succès !";
     } else {
         $message = "Veuillez remplir tous les champs.";
     }
