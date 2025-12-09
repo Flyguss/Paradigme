@@ -5,6 +5,16 @@ networks:
     driver: bridge
 
 services:
+  web2:
+    image: canals/php:latest
+    restart: always
+    ports:
+      - "11000:80"
+    volumes:
+      - ./app/:/var/www
+    networks:
+      - catamongo.net
+
   php:
     build:
         context: build
@@ -38,4 +48,6 @@ services:
     - catamongo.net
     ports:
     - "8081:8081"
+
+
 
