@@ -23,3 +23,5 @@ $categories = array_unique($categories);
 foreach ($categories as $c) {
     echo "<a href='produits.php?categorie=$c'>$c</a><br>";
 }
+
+echo "<br><a href='form.php'>Ajouter un produit</a><br>";
