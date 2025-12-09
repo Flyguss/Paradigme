@@ -21,5 +21,5 @@ foreach ($produits as $doc) {
 $categories = array_unique($categories);
 
 foreach ($categories as $c) {
-    echo "<a href='$c.php'>$c</a><br>" ;
+    echo "<a href='produits.php?categorie=$c'>$c</a><br>";
 }
